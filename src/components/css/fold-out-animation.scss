@@ -1,0 +1,60 @@
+.aws-sld {
+  --fold-out-perspective: 1000px;
+  --fold-out-angle: 90deg;
+
+  &__container {
+    perspective: var(--fold-out-perspective);
+  }
+
+  &--exit {
+    &.aws-sld--moveLeft,
+    &.aws-sld--moveRight {
+      transform-style: preserve-3d;
+    }
+    &.aws-sld--moveLeft {
+      transform-origin: 100% 50%;
+      animation: foldLeft var(--slider-transition-duration) both
+        var(--transition-bezier);
+    }
+    &.aws-sld--moveRight {
+      transform-origin: 0% 50%;
+      animation: foldRight var(--slider-transition-duration) both
+        var(--transition-bezier);
+    }
+  }
+}
+.aws-btn {
+
+--slider-height-percentage: 49%;
+--slider-transition-duration: 575ms;
+--organic-arrow-thickness: 10px;
+--organic-arrow-border-radius: 30px;
+--organic-arrow-height: 40px;
+--organic-arrow-color: #50b6d9;
+--control-button-width: 10%;
+--control-button-height: 25%;
+--control-button-background: transparent;
+--control-bullet-color: #5ed6ff;
+--control-bullet-active-color: #50b6d9;
+--loader-bar-color: #851515;
+--loader-bar-height: 9px;
+}
+
+@keyframes foldLeft {
+  from {
+    transform: translate3d(0, 0, 0) rotateY(0deg);
+  }
+  to {
+    transform: translate3d(-100%, 0, 0)
+      rotateY(calc(var(--fold-out-angle) * -1));
+  }
+}
+
+@keyframes foldRight {
+  from {
+    transform: translate3d(0, 0, 0) rotateY(0deg);
+  }
+  to {
+    transform: translate3d(100%, 0, 0) rotateY(var(--fold-out-angle));
+  }
+}
