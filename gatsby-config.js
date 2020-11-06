@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Dimension V2',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    title: 'Alison Uchiha',
+    author: 'Alison Uchiha',
+    description: 'Meu site de lol MODAFOCA',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,7 +19,7 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    
+
      {
    resolve: '@debiki/gatsby-plugin-talkyard',
    options: {
