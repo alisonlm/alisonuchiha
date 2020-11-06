@@ -61,7 +61,7 @@ const Header = props => (
             <iframe src="https://player.twitch.tv/?video=780696746&parent=localhost" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 <iframe frameborder="0"
         scrolling="yes"
-        src="https://www.twitch.tv/embed/alisonuchiha88/chat?parent=http://alisonuchiha.online"
+        src="https://www.twitch.tv/embed/alisonuchiha88/chat?parent=http://alisonuchiha.site"
         height="378"
         width="620">
 </iframe>
