@@ -23,7 +23,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-          Highlights
+          NINJA
           </button>
         </li>
         <li>
@@ -32,7 +32,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-                 Ninja        
+                 INDICACOES         
           </button>
         </li>
         <li>
