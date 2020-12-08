@@ -58,10 +58,10 @@ const Header = props => (
     </div>
 <div class="box">
 
-            <iframe src="https://player.twitch.tv/?video=780696746&parent=alisonuchiha.site" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+            <iframe src="https://player.twitch.tv/?uchiha_alison&parent=alisonuchiha.site" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
 <iframe frameborder="0"
         scrolling="yes"
-        src="https://www.twitch.tv/embed/alisonuchiha88/chat?parent=alisonuchiha.site"
+        src="https://www.twitch.tv/embed/uchiha_alison/chat?parent=alisonuchiha.site"
         height="378"
         width="620">
 </iframe>
@@ -75,7 +75,7 @@ const Header = props => (
   >
   <div>
     <ReactPlayer
-            url='https://www.youtube.com/watch?v=JTohBYvnhPY'
+            url='https://www.youtube.com/embed/fT6UKUDifQw'
             muted
             width='720px'
             height='480px'
@@ -92,7 +92,7 @@ const Header = props => (
           /></div>
 <div>
     <ReactPlayer
-            url='https://www.youtube.com/watch?v=ysz5S6PUM-U'
+            url='https://www.youtube.com/watch?v=JTohBYvnhPY'
             width='720px'
             height='480px' 
             controls='true'
