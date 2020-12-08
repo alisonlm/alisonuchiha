@@ -58,14 +58,14 @@ class Main extends React.Component {
           </span>
 
           <p>
-          <a target="_blank" href="https://www.youtube.com/channel/UCYfICNe8kq9y704igFJ3wdw">Canal do Daniels</a>: Videos de dicas específicas de matchups  !
+          <a target="_blank" href="https://www.youtube.com/channel/UCYfICNe8kq9y704igFJ3wdw">Canal do Daniels</a>
           </p>
         </div>
         <div class="box">
           <img src={pic06} alt="" />
 
           <p>  
-          <a target="_blank" href="https://www.youtube.com/channel/UCJpr_9jq10LrXfQ2c-zXllA"> Djoko!</a>:  Análises de grandes jogos e tier list's dos melhore campeões do patch
+          <a target="_blank" href="https://www.youtube.com/channel/UCJpr_9jq10LrXfQ2c-zXllA"> Djoko!</a>
           </p>
         </div>
           {close}
@@ -83,14 +83,11 @@ class Main extends React.Component {
             <img src={pic04} alt="" />
           </span>
           <p>
-            Contudo nem jogo ranked mais ahuah !
-          </p>
-          <p>
-          <h2 className="major">Win Rate ARAM !</h2>
-          Melhor Modo - <a  target="_blank" href="https://u.gg/lol/profile/br1/alison%20uchiha/champion-stats?queueType=normal_aram">Veja a lista completa</a>   
+          <h2 className="major">Win Rate ARAM S10!</h2>  
           <span className="image main">
             <img src={pic07} alt="" />
           </span>
+          Melhor Modo - <a  target="_blank" href="https://u.gg/lol/profile/br1/alison%20uchiha/champion-stats?queueType=normal_aram">Resetado a partir da pré-season</a> 
           </p>
           {close}
         </article>
